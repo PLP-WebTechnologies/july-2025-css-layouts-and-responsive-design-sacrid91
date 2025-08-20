@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Sidebar Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Market Insights</h1>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Analysis</a>
+      <a href="#">Signals</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main class="content">
+      <h2>Trading Strategy: Trend & Retracement</h2>
+      <p>
+        This page demonstrates a responsive layout using CSS Grid and Flexbox.
+        The strategy uses 50MA, IMI, and key support/resistance levels.
+      </p>
+      <div class="cards">
+        <div class="card">
+          <h3>50MA + Trend</h3>
+          <p>Entry after pullback in direction of trend.</p>
+        </div>
+        <div class="card">
+          <h3>IMI Indicator</h3>
+          <p>Measures momentum in ranging/breakout markets.</p>
+        </div>
+        <div class="card">
+          <h3> BOS (Break of Structure)</h3>
+          <p>Confirmed when price breaks prior swing point.</p>
+        </div>
+      </div>
+    </main>
+
+    <aside class="sidebar">
+      <h3>Key Levels</h3>
+      <ul>
+        <li>Support: 1.0850</li>
+        <li>Resistance: 1.0950</li>
+        <li>Volatility Filter: ATR(14) > 0.0030</li>
+        <li>Breakout Confirmation: Close beyond level</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 codewithlaban... Binary Strategy Dashboard | PLP Assignment
+  </footer>
+</body>
+</html>
